@@ -1,0 +1,13 @@
+batch=1 compute_only DP4A=0.0427514ms cuBLAS=0.0453018ms DP4A_speedup=1.05966x
+batch=1 weights_resident DP4A=0.194296ms cuBLAS=0.177039ms DP4A_speedup=0.91118x
+batch=1 upload_all DP4A=0.444268ms cuBLAS=0.429319ms DP4A_speedup=0.966351x
+batch=4 compute_only DP4A=0.0910547ms cuBLAS=0.0276013ms DP4A_speedup=0.303129x
+batch=4 weights_resident DP4A=0.180569ms cuBLAS=0.111114ms DP4A_speedup=0.615355x
+batch=4 upload_all DP4A=0.464945ms cuBLAS=0.384778ms DP4A_speedup=0.827576x
+batch=16 compute_only DP4A=0.239446ms cuBLAS=0.0401056ms DP4A_speedup=0.167493x
+batch=16 weights_resident DP4A=0.408348ms cuBLAS=0.150309ms DP4A_speedup=0.36809x
+batch=16 upload_all DP4A=0.656746ms cuBLAS=0.424031ms DP4A_speedup=0.645654x
+batch=128 compute_only DP4A=1.40179ms cuBLAS=0.0443597ms DP4A_speedup=0.0316451x
+batch=128 weights_resident DP4A=1.6521ms cuBLAS=0.270652ms DP4A_speedup=0.163823x
+batch=128 upload_all DP4A=1.90969ms cuBLAS=0.499234ms DP4A_speedup=0.261422x
+All correctness checks passed. Results saved.

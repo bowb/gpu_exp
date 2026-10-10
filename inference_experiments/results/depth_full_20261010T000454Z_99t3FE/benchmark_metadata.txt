@@ -1,0 +1,16 @@
+GPU: NVIDIA GeForce RTX 2060
+cuBLAS: 130401
+CUDA compiler: 13.2.86
+CUDA runtime: 13020
+CUDA driver API: 13020
+copy engines: 2
+concurrent kernels supported: 1
+power query available: 1
+data seed: 12345
+order seed: 20261010
+input banks: 9
+input features: 4096
+output features: 512
+trials: 5
+timed seconds: 3
+warmup seconds: 0.5

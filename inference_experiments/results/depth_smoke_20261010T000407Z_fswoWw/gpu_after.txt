@@ -1,0 +1,2 @@
+name, power.draw [W], temperature.gpu, utilization.gpu [%]
+NVIDIA GeForce RTX 2060, 45.20 W, 41, 19 %

@@ -1,0 +1,10 @@
+batch=1 compute_no_transfers pageable=0.0188568ms pinned=0.0198723ms pinned_speedup=0.948896x
+batch=1 weights_resident pageable=0.163687ms pinned=0.241243ms pinned_speedup=0.678515x
+batch=1 upload_all pageable=0.411757ms pinned=0.381849ms pinned_speedup=1.07833x
+batch=16 compute_no_transfers pageable=0.0335554ms pinned=0.034076ms pinned_speedup=0.984721x
+batch=16 weights_resident pageable=0.148663ms pinned=0.204041ms pinned_speedup=0.728597x
+batch=16 upload_all pageable=0.432678ms pinned=0.384468ms pinned_speedup=1.1254x
+batch=128 compute_no_transfers pageable=0.0501376ms pinned=0.0510445ms pinned_speedup=0.982233x
+batch=128 weights_resident pageable=0.279444ms pinned=0.247799ms pinned_speedup=1.12771x
+batch=128 upload_all pageable=0.534218ms pinned=0.462014ms pinned_speedup=1.15628x
+All correctness checks passed. Results saved.

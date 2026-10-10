@@ -1,0 +1,5 @@
+DP4A int8 matmul benchmark
+shape: batch=128 out=512 in=4096
+average kernel latency: 1.593296 ms
+effective throughput: 0.336956 TOPS
+correctness: errors=0 max_abs_error=0
